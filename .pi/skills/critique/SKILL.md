@@ -1,6 +1,8 @@
 ---
 name: critique
 description: Evaluate design from a UX perspective, assessing visual hierarchy, information architecture, emotional resonance, cognitive load, and overall quality with quantitative scoring, persona-based testing, and actionable feedback. Use when the user asks to review, critique, evaluate, or give feedback on a design or component.
+user-invocable: true
+argument-hint: "[area (feature, page, component...)]"
 ---
 
 ## MANDATORY PREPARATION
@@ -129,7 +131,7 @@ For each issue, tag with **P0–P3 severity** (consult [heuristics-scoring](refe
 ### Persona Red Flags
 > *Consult [personas](reference/personas.md)*
 
-Auto-select 2–3 personas most relevant to this interface type (use the selection table in the reference). If `AGENTS.md` contains a `## Design Context` section from `teach-impeccable`, also generate 1–2 project-specific personas from the audience/brand info.
+Auto-select 2–3 personas most relevant to this interface type (use the selection table in the reference). If `.github/copilot-instructions.md` contains a `## Design Context` section from `teach-impeccable`, also generate 1–2 project-specific personas from the audience/brand info.
 
 For each selected persona, walk through the primary user action and list specific red flags found:
 

@@ -131,7 +131,7 @@ For each issue, tag with **P0–P3 severity** (consult [heuristics-scoring](refe
 ### Persona Red Flags
 > *Consult [personas](reference/personas.md)*
 
-Auto-select 2–3 personas most relevant to this interface type (use the selection table in the reference). If `AGENTS.md` contains a `## Design Context` section from `teach-impeccable`, also generate 1–2 project-specific personas from the audience/brand info.
+Auto-select 2–3 personas most relevant to this interface type (use the selection table in the reference). If `.github/copilot-instructions.md` contains a `## Design Context` section from `teach-impeccable`, also generate 1–2 project-specific personas from the audience/brand info.
 
 For each selected persona, walk through the primary user action and list specific red flags found:
 
@@ -154,7 +154,7 @@ Quick notes on smaller issues worth addressing.
 
 ## Phase 3: Ask the User
 
-**After presenting findings**, use targeted questions based on what was actually found. STOP and call the `question` tool to clarify. These answers will shape the action plan.
+**After presenting findings**, use targeted questions based on what was actually found. ask the user directly to clarify what you cannot infer. These answers will shape the action plan.
 
 Ask questions along these lines (adapt to the specific findings — do NOT ask generic questions):
 
